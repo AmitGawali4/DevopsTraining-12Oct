@@ -1,10 +1,10 @@
 node {
 
 stage('Git CheckOut') {    
-git branch: 'main', url: 'https://github.com/amitvashisttech/devops-accenture-2020Oct12.git'
+git branch: 'main', url: 'https://github.com/AmitGawali4/DevopsTraining-12Oct.git'
 }
 
-def project_path = "02-Jenkins/petclinic-code"
+def project_path = "02Jenkins/petclinic-code"
 dir(project_path) {
 
 stage('Maven Clean') {    
