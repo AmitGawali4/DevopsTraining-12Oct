@@ -18,7 +18,7 @@
    18  ls -a
    19  git log
    20  git diff 32d44.. 5b7c8..
-   21  git diff 32d44..5b7c8
+   20  git diff 32d44..5b7c8
    22  git diff HEADapt-get install git -y
    23  git diff HEAD~2
    24  git diff HEAD~1
