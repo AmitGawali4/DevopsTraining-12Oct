@@ -1,0 +1,566 @@
+    1  apt-get update
+    2  apt-get install git -y
+    3  git clone https://github.com/AmitGawali4/DevopsTraining-12Oct
+    4  ls
+    5  ll
+    6  cd DevopsTraining-12Oct
+    7  git status
+    8  echo "hello world " > Hello.txt
+    9  git status
+   10  git add .
+   11  git commit -m "hwllo"
+   12  git push
+   13  git status
+   14  ls
+   15  git status
+   16  git push
+   17  ls
+   18  ls -a
+   19  git log
+   20  git diff 32d44.. 5b7c8..
+   21  git diff 32d44..5b7c8
+   22  git diff HEADapt-get install git -y
+   23  git diff HEAD~2
+   24  git diff HEAD~1
+   25  git show HEAD
+   26  ls
+   27  git branch
+   28  git branch stage
+   29  git branch
+   30  git checkout -b stage
+   31  git branch
+   32  git checkout stage
+   33  ls
+   34  mkdir stagefiles | Test.txt
+   35  mkdir stagefiles
+   36  ls
+   37  cd stagefiles/
+   38  ls
+   39  for i in{01..10} >./test_$i
+   40  for i in {01..10} >./test_$i
+   41  for i in {01..10} >/test_$i
+   42  for i in {01..10} >stagefiles/test_$i
+   43  for i in {01..10} > stagefiles/test_$i
+   44  for i in {01..10}; echo "hello world  $i"  > stagefiles/test_$i;
+   45  for i in {01..10}; do echo "hello world  $i"  > stagefiles/test_$i;
+   46  ls
+   47  ll
+   48  ls -ltr
+   49  ls -lrt
+   50  for i in {01..10}; do echo "hello world  $i"  > stagefiles/test_$i; done
+   51  ls
+   52  echo "hello " > test.txt
+   53  ls
+   54  cd ..
+   55  ls
+   56  git add .
+   57  git push 
+   58  git pust --set-upstream origin master
+   59  git push --set-upstream origin master
+   60  git push --set-upstream origin stage
+   61  git statu
+   62  status
+   63  git status
+   64  gitbranch
+   65  git branch
+   66  git checkout main
+   67  git merge stage
+   68  ls
+   69  git config --list
+   70  git log
+   71  git HEAD
+   72  git show HEAD
+   73  git HISTORY
+   74  git --help
+   75  ls
+   76  git status 
+   77  git branch feature
+   78  git checkout feature
+   79  git branch
+   80  ls
+   81  mkdir feature.txt
+   82  ls
+   83  git checkout main
+   84  ls
+   85  git chekout feature
+   86  git checkout feature
+   87  ls
+   88  git rebase main
+   89  git add .
+   90  git commit
+   91  git commit -m "test"
+   92  ls
+   93  git branch
+   94  git checkout main
+   95  ls
+   96  git rebase feature
+   97  ls
+   98  git log
+   99  git checkout 
+  100  git status
+  101  git push
+  102  git pust -u origin master
+  103  git pusf -u origin master
+  104  git push -u origin master
+  105  git congif --list
+  106  git congit --list
+  107  git config --list
+  108  git pull origin master
+  109  git pull origin stage
+  110  git pull origin feature
+  111  git status
+  112  git branch
+  113  git status
+  114  git commit -m "main commit"
+  115  git push origin master
+  116  git heckout feature
+  117  git checkout feature
+  118  git status
+  119  ls
+  120  git checkout stage
+  121  ls
+  122  git checkout main
+  123  git push 
+  124  git push origin main
+  125  git pull
+  126  git pull 
+  127  git push origin master
+  128  ls
+  129  cd ..
+  130  ls
+  131  cd DevopsTraining-12Oct/
+  132  ls
+  133  mkdir 02Jenkins
+  134  apt -get install default-jdk -y
+  135  apt-get install default-jdk -y
+  136  java -version
+  137  wget https://get.jenkins.io/war-stable/2.249.2/jenkins.war
+  138  mv jenkins.war /root/
+  139  ls
+  140  cd 02Jenkins/
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd ..
+  145  ls
+  146  mv jenkins.war /root/DevopsTraining-12Oct/02Jenkins/
+  147  ls
+  148  cd DevopsTraining-12Oct/
+  149  ls
+  150  cd 02Jenkins/
+  151  ls
+  152  java -jar jenkins.war --httpPort=9090 &
+  153  apt-get install maven -y
+  154  mvn -versiom
+  155  mvn -version
+  156  git pul
+  157  git pull
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd 02Jenkins/
+  162  ls
+  163  clear
+  164  ls
+  165  mv jenkins.war /root
+  166  ls
+  167  cd 
+  168  ls
+  169  git clone https://github.com/amitvashisttech/devops-accenture-2020Oct12.git
+  170  ls
+  171  cd devops-accenture-2020Oct12/
+  172  ls
+  173  cd 02-Jenkins/
+  174  ls
+  175  cp -rf petclinic-code /root/DevopsTraining-12Oct/02Jenkins/
+  176  ls
+  177  cd /root/DevopsTraining-12Oct/02Jenkins/
+  178  ls
+  179  cd petclinic-code/
+  180  mvn --version
+  181  mnv clean
+  182  mvn clean
+  183  mvn compile
+  184  mvn test
+  185  mvn package
+  186  ls
+  187  cd target/
+  188  ls
+  189  mvn clean
+  190  ls
+  191  mvn clean
+  192  mvn clean 
+  193  mvn clean
+  194  cd ..
+  195  mvn clean
+  196  cd 
+  197  ls
+  198  java -jar jenkins.war
+  199  git push 
+  200  ls
+  201  cd DevopsTraining-12Oct/
+  202  git status 
+  203  git add . 
+  204  git push -m "maven pat file"
+  205  git commit -m "maven pat file"
+  206  git push 
+  207  git status 
+  208  git status
+  209  git push 
+  210  ls
+  211  cd ..
+  212  ls
+  213  java -jar jenkins.war --httpPort=9090
+  214  ls
+  215  cd DevopsTraining-12Oct/
+  216  ls
+  217  cd 02Jenkins/
+  218  ls
+  219  cd pet
+  220  cd petclinic-code/
+  221  ls
+  222  cd ..
+  223  ls
+  224  ls -a
+  225  cd ..
+  226  ls -a
+  227  cd 02Jenkins/
+  228  ls
+  229  cd ..
+  230  ls 
+  231  ls -a
+  232  cd ..
+  233  ls -a
+  234  cd .jenkins/
+  235  ls
+  236  cd jobs/
+  237  ls
+  238  cd pat-project/
+  239  ls
+  240  pwd
+  241  clear
+  242  ls -ltr
+  243  cd ..
+  244  ls
+  245  cd ..
+  246  ls
+  247  cd workspace/
+  248  ls
+  249  cd pat-project/
+  250  ls
+  251  cd 02Jenkins/
+  252  ls
+  253  cd pat
+  254  cd petclinic-code/
+  255  ls
+  256  cd ..
+  257  ls
+  258  ls 02Jenkins/petclinic-code/
+  259  cd targets
+  260  cd target
+  261  ls
+  262  cd 02Jenkins/
+  263  ls
+  264  cd petclinic-code/
+  265  ls
+  266  cd target/
+  267  ls
+  268  pwd
+  269  cd 
+  270  ls
+  271  cd DevopsTraining-12Oct/
+  272  ls
+  273  git branch
+  274  git branch jenkins
+  275  git checkout jenkins 
+  276  ls
+  277  rm -rf *
+  278  ls
+  279  mkdir JenkinsFiles/jenkinepipeline
+  280  mkdir JenkinsFiles
+  281  ls
+  282  echo "hello" >JenkinsFiles/jenkinepipeline
+  283  ls
+  284  cd JenkinsFiles/
+  285  ls
+  286  vim jenkinepipeline 
+  287  git add .
+  288  git commit -m "jenkine file pipeline"
+  289  git push
+  290  git push --set-upstream origin jenkins
+  291  ls
+  292  cd J
+  293  ls
+  294  vim jenkinepipeline 
+  295  git add .
+  296  git commit -m "jenkine file pipeline 2"
+  297  git push --set-upstream origin jenkins
+  298  cd ..
+  299  ls -ltr JenkinsFiles/jenkinepipeline 
+  300  ls
+  301  clear
+  302  git branch
+  303  ls
+  304  git config --list
+  305  cat JenkinsFiles/
+  306  ls
+  307  cat JenkinsFiles/jenkinepipeline 
+  308  git status 
+  309  git commit -m "jenkins pipeline"
+  310  git push clear
+  311  clear
+  312  git add .
+  313  git commit -m "pipeline"
+  314  git push 
+  315  cd 
+  316  ls
+  317  git clone https://github.com/jenkins-docs/simple-java-maven-app.git
+  318  ls
+  319  cd simple-java-maven-app/
+  320  ls
+  321  rm -rf jenkins/
+  322  ls
+  323  cd ..
+  324  cp -rf simple-java-maven-app/ /root/DevopsTraining-12Oct/
+  325  ls
+  326  cd Dev
+  327  cd DevopsTraining-12Oct/
+  328  ls
+  329  cd ..
+  330  ls
+  331  rm -rf simple-java-maven-app/
+  332  ls
+  333  cd DevopsTraining-12Oct/
+  334  ls
+  335  apt-git insall maven -y
+  336  apt-get insall maven -y
+  337  apt-get insall maven-y
+  338  apt-get insall maven -y
+  339  apt -get insall maven -y
+  340  mvn clean 
+  341  ls
+  342  cd simple-java-maven-app/
+  343  ls
+  344  mvn clean 
+  345  mvn compile 
+  346  ls
+  347  mvn test
+  348  mvn package
+  349  ls
+  350  cd tar
+  351  cd target/
+  352  ls
+  353  ls -ltr
+  354  cd ..
+  355  mvn clean
+  356  git branch
+  357  git -config --list
+  358  git --config -list
+  359  git -config --list
+  360  git congig --list
+  361  git config --list
+  362  ls
+  363  cd ..
+  364  ls
+  365  git branch
+  366  git branch javabuild
+  367  git branch
+  368  git checkout javabuild
+  369  git branch
+  370  git rebase jenkins
+  371  ls
+  372  git add .
+  373  git commit -m"java build"
+  374  git push 
+  375  git push --set-upstream origin javabuild
+  376  ls
+  377  cd JenkinsFiles/
+  378  ls
+  379  cd ..
+  380  ls
+  381  cd simple-java-maven-app/
+  382  mvn clean
+  383  mvn compile
+  384  mvn test
+  385  mvn package
+  386  ls
+  387  cd target/
+  388  ls
+  389  ls -a
+  390  cd ..
+  391  ls -a
+  392  cd ..
+  393  ls-a
+  394  ls -a
+  395  cd .jenkins/
+  396  ls
+  397  cd work
+  398  cd workspace/
+  399  ls
+  400  cd SampleJavaproject/
+  401  ls
+  402  cd simple-java-maven-app/
+  403  ls
+  404  cd 
+  405  ls
+  406  cd DevopsTraining-12Oct/
+  407  ls
+  408  cd simple-java-maven-app/
+  409  ls
+  410  pwd
+  411  ls
+  412  cd .
+  413  ls
+  414  cd 
+  415  ls
+  416  cd devops-accenture-2020Oct12/
+  417  ls
+  418  cd 02-Jenkins/
+  419  ls
+  420  cd ..
+  421  cd
+  422  ls
+  423  git clone https://github.com/jenkins-docs/simple-java-maven-app.git
+  424  ls
+  425  cd DevopsTraining-12Oct/
+  426  ls
+  427  git branch
+  428  git checkout main
+  429  ls
+  430  cd 02Jenkins/
+  431  ls
+  432  git checkout javabuild
+  433  ls
+  434  cd
+  435  ls
+  436  cd DevopsTraining-12Oct/
+  437  ls
+  438  cd simple-java-maven-app/
+  439  ls
+  440  cd ..
+  441  ls
+  442  git add .
+  443  git commit -m "mvn build"
+  444  git push
+  445  ls
+  446  cd simple-java-maven-app/
+  447  ls
+  448  cd
+  449  git config --list
+  450  cd DevopsTraining-12Oct/
+  451  git config --list
+  452  cd ..
+  453  ls
+  454  cd ..
+  455  ls
+  456  vagrant.exe up
+  457  cd vagrant/
+  458  ls
+  459  Vagrant.exe up
+  460  Vagrant .exe ssh master
+  461  vagrant .exe ssh master
+  462  cd /root/
+  463  ls
+  464  cd simple-java-maven-app/
+  465  ls
+  466  git config --list
+  467  git remote add origin 
+  468  git remote add origin https://github.com/AmitGawali4/JenkinMVNBuild.git
+  469  git confit --list
+  470  git config --list
+  471  git clone https://github.com/AmitGawali4/JenkinMVNBuild.git
+  472  ls
+  473  git congit --list
+  474  git congig --list
+  475  git config --list
+  476  ls
+  477  cd ..
+  478  ls
+  479  cd DevopsTraining-12Oct/
+  480  git config --list
+  481  cd
+  482  ls
+  483  mkdir javabuild
+  484  git config --list
+  485  git remote add origin https://github.com/AmitGawali4/JenkinMVNBuild.git
+  486  l
+  487  ls
+  488  cp -rf simple-java-maven-app/ javabuild/
+  489  cd javabuild/
+  490  ls
+  491  cd simple-java-maven-app/
+  492  ls
+  493  git branch 
+  494  cd JenkinMVNBuild/
+  495  cd ..
+  496  ls
+  497  cp . JenkinMVNBuild/ 
+  498  ls
+  499  cp jenkins/ JenkinMVNBuild/
+  500  cd JenkinMVNBuild/
+  501  ls
+  502  cd
+  503  ls
+  504  cd javabuild/
+  505  ls
+  506  cd simple-java-maven-app/
+  507  ls
+  508  git config --list
+  509  gi branch
+  510  git branch
+  511  cd ..
+  512  cd
+  513  ls
+  514  cd DevopsTraining-12Oct/
+  515  ls
+  516  git branch
+  517  git checkout main
+  518  git branch
+  519  ls
+  520  mkdit 03Docker
+  521  mkdir 03Docker
+  522  ls
+  523  cd 03Docker/
+  524  ls
+  525  mkdir deckrsetup/docker-install.sh
+  526  vi docker-install.sh
+  527  cat docker-install.sh 
+  528  ./docker-install.sh
+  529  chmod +x docker-install.sh
+  530  ls
+  531  ./docker-install.sh
+  532  docker --version
+  533  docker images
+  534  docker container 
+  535  docker container ls
+  536  docker run busybox echo "welcome to docker world"
+  537  docker container ls 
+  538  docker container ls -a
+  539  hiostry >dockercommants.txt
+  540  hiostory >dockercommants.txt
+  541  History >dockercommants.txt
+  542  history >dockercommants.txt
+  543  cat dockercommants.txt 
+  544  clear
+  545  ls
+  546  git add .
+  547  git config --list
+  548  git commit -m "docker setup"
+  549  git push 
+  550  docker pull ubuntu:16.04
+  551  docker images
+  552  docker pull ubuntu:16.04
+  553  git push 
+  554  clear
+  555  docker run -it --name webserve01 centos:7 /bin/bash
+  556  docker commit -p -m "My Httpd WebServer" webserver01 centos-test-httpd:v1
+  557  docker commit -p -m "My Httpd WebServer" 703de95ba7bb centos-test-httpd:v1
+  558  docker run -itd --name webserver-test-01 centos-test-httpd:v1 /bin/bash
+  559  docker run -itd --name webserver-test-02 centos-test-httpd:v1 /bin/bash
+  560  docker exec webserver-test-01 ps aux
+  561  docker inspect webserver-test-01
+  562  curl 172.17.0.3/info.html
+  563  ls
+  564  history -50 > httpdimg.txt
+  565  history-50 > httpdimg.txt
+  566  history > httpdimg.txt
