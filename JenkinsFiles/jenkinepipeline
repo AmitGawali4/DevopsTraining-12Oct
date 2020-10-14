@@ -24,4 +24,7 @@ sh 'mvn package -f 02Jenkins/petclinic-code/pom.xml'
 stage('Archiving Artifacts') {    
 archive '02Jenkins/petclinic-code/target/*.war'
 }
-}
+
+stage('Deploy Petclinic Code into Docker Env.') {
+sh 'docker-compose up -d --build'
+}}
