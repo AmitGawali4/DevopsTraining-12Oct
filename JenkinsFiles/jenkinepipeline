@@ -1,7 +1,7 @@
 node {
 
 stage('Git CheckOut') {    
-git branch: 'main', url: 'https://github.com/AmitGawali4/DevopsTraining-12Oct.git'
+git branch: 'jenkins', url: 'https://github.com/AmitGawali4/DevopsTraining-12Oct.git'
 }
 
 
